@@ -1,32 +1,84 @@
-body { 
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Shippori+Mincho&family=Simonetta:ital,wght@0,400;0,900;1,400;1,900&display=swap');
+
+body { font-family: "Simonetta", serif;
+    
     
 background-color: rgb(255, 196, 205);
 }
 
-img {
+img { 
+    text-align: center;
     border-color: rgb(95, 51, 14);
     border-style: groove;
     border-width: 4px; 
 
 }
+p {
+    color: rgb(82, 45, 15);
+}
+.centered {
+    text-align: center;
+
+}
 
 h2 {
+    text-align: center;
     color: lightgoldenrodyellow;
 }
 
-h1 {
+h1 {  font-family: "Satisfy", cursive;
     color: rgb(82, 45, 15);
+    text-align: center;
+    font-size: 38px;
+}
+
+h3 {
+    color:rgb(95, 51, 14)
 }
  
 hr {
-    border: 2px solid rgb(82, 47, 12);
+    border: 2px solid rgb(114, 64, 14);
+    border-style: dotted;
+    
+}
+a { 
+    background: rgb(255, 173, 187);
+    padding: 3px;
+    color: rgb(253, 89, 114);
+    border-color: antiquewhite;
+    border-radius: 5px;
+    border-width: 2px;
     border-style: dashed;
+}
 
-}
-a {
-    color: lightgoldenrodyellow;
-}
 
 ul li {
     color: lightgoldenrodyellow;
+    padding:1.2px;
+    margin: 2px
+    
 }
+
+ol li {
+    color: rgb(82, 45, 15);
+    padding: 5px;
+    margin: 2px;
+} 
+
+
+.flex {
+    display: flex;
+    justify-content: space-evenly
+} 
+
+
+.recipie-section {
+    background: rgb(255, 173, 187); 
+    border-width: 5px;
+    border-style: dashed;
+    border-color: lightgoldenrodyellow;
+    margin: 5%;
+    padding: 3% ;
+    border-radius: 15px;
+}
+
